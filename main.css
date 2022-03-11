@@ -142,14 +142,16 @@ nav ul {
   bottom: 0;
   transform: translateX(100vw);
   transition: transform 0.2s;
-  background: white;
+  background: #669BBC;
+  color: #003049;
   font-size: 5rem;
   list-style-type: none;
 }
 
 /* unvisited link */
-nav a:link {
-  color: #FF0000;
+nav a:link, nav a:visited{
+  color: #003049;
+  
   text-decoration: none;
   padding: 0 10px;
 
@@ -158,7 +160,7 @@ nav a:link {
 /* mouse over link */
 nav a:hover {
   color: black;
-  background-color: palevioletred;
+  background-color: #FDF0D5;
 }
 
 
@@ -177,4 +179,13 @@ input:checked + label span::after {
 input:checked ~ ul {
   transform: none;
   transition: transform 0.4s; 
+}
+
+.team {
+    background-color: #003049;
+    color: #669BBC;
+}
+
+.team img {
+    padding: 20px;
 }
