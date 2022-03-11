@@ -66,6 +66,12 @@ html {
     flex-direction: column;
 }
 
+.capabilities img {
+    width: 80%;
+    height: 50vh;
+    object-fit: cover;
+}
+
 /* unvisited link */
 .capabilities a:link, .capabilities a:visited  {
   color: #003049;
@@ -194,4 +200,11 @@ input:checked ~ ul {
 
 .team img {
     padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.sponsors {
+    background-color: #003049;
+    color: #669BBC;  
 }
