@@ -148,6 +148,12 @@ nav ul {
   list-style-type: none;
 }
 
+@media (max-width: 768px) { 
+    nav ul {
+        font-size: 3rem;
+    }
+}
+
 /* unvisited link */
 nav a:link, nav a:visited{
   color: #003049;
